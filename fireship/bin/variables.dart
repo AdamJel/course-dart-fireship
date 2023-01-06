@@ -25,6 +25,9 @@ void main() {
   // to declare types for class members and function parameters.
   //
   // I am not sure. I think, that it is better to declare types for everything.
+  // One more argument in favor of declaring types is consistency across
+  // programming languages and frameworks. For me, I am used to use type
+  // annotations in Python everywhere.
 
   // if type is not knowed, but I am sure, once assigned, it should not change
   // I can use the 'final' keyword, but it is not an immutable variable
@@ -34,4 +37,9 @@ void main() {
   // if I am sure, that the variable will never change, I can use 'const'
   const int num3 = 42;
   // num3 += 234; // error: a const variable can only be set once
+
+  // dynamic type is a special type, that can be assigned to any type
+  dynamic word4 = 'some other word';
+  word4 = 42;
+  word4 = true;
 }
