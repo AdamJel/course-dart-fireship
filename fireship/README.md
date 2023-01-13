@@ -14,3 +14,11 @@
    - <https://dart.dev/guides/language/type-system#what-is-soundness>: "Casting an
      object to a String using as String fails with a runtime error if the object isn’t
      a String."
+
+4. How to use 'late final' clause with named contructors? The problem seems to be, that
+   once the value is set by first defined constructor, the compiler complains within the
+   second constructor, that the value is already set.
+
+5. What about abstract classes? How to use them? What is the difference between abstract
+   classes and interfaces?
+   -> cover this in `lib/src/e09b_abstract_classes.dart`

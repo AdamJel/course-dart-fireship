@@ -14,8 +14,10 @@ class More {
 }
 
 class Basic {
+
   int id = 0;
 
+  // making it available to constructor
   Basic(this.id);
 
   doStuff() {
