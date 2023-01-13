@@ -1,5 +1,7 @@
 void main() {
 
+  // Can be used to ensure corrent data structure. E.g. in asynchronous api calls
+
   // more on generics e.g. <https://dart.academy/generics-in-dart-and-flutter>
 
   List<int> numbers = [13, 41, 42, 54];
