@@ -35,7 +35,7 @@ void main() {
     return base * 2;
   }
 
-  int funcCallback(innerFunction) {
+  int funcCallback(Function innerFunction) {
     var i = innerFunction(42);
     return i;
   }
