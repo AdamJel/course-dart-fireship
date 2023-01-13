@@ -22,3 +22,5 @@
 5. What about abstract classes? How to use them? What is the difference between abstract
    classes and interfaces?
    -> cover this in `lib/src/e09b_abstract_classes.dart`
+
+6. Explore generics more in-depth. E.g. <https://dart.academy/generics-in-dart-and-flutter/>
