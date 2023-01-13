@@ -24,3 +24,5 @@
    -> cover this in `lib/src/e09b_abstract_classes.dart`
 
 6. Explore generics more in-depth. E.g. <https://dart.academy/generics-in-dart-and-flutter/>
+
+7. Explore asynchronous code - Futures and Streams more in-depth.
